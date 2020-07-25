@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Header from './componenets/header';
+import Footer from './componenets/footer';
 import './App.css';
 
 function App() {
@@ -14,6 +15,8 @@ const [currentCategory, setCurrentCategory] = useState(categories[0]);
   return (
     <div className="App">
       <Header categories={categories} currentCategory={currentCategory} setCurrentCategory={setCurrentCategory}></Header>
+      
+      <Footer></Footer>
     </div>
   );
 }
