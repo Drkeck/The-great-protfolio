@@ -13,7 +13,7 @@ function Navigation(props) {
     return(
         <Nav>
             {categories.map((category) => (
-                <NavItem key={category.name} className="mr-auto" > 
+                <NavItem key={category.name} className={`mx-4 ${currentCategory.name === category.name && 'text-muted'}`}> 
                     <NavLink onClick={()=>{
                         setCurrentCategory(category)
                     }}>{category.name} 

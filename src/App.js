@@ -10,7 +10,6 @@ const [categories] = useState([
   {name: "Resume"}
 ]);
 const [currentCategory, setCurrentCategory] = useState(categories[0]);
-console.log(currentCategory)
 
   return (
     <div className="App">
