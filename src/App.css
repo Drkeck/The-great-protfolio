@@ -11,7 +11,10 @@
   background-image: linear-gradient(0deg, #9b2c2c, rgba(0, 162, 255, 0.555)), url('./assets/images/dd1.gif');
   background-position: center;
   background-size: cover;
+}
 
+.card-img-top {
+  max-height: 250px;
 }
 
 .video-jumbo {
