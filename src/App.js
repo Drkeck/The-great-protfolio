@@ -16,7 +16,7 @@ const [currentCategory, setCurrentCategory] = useState(categories[0]);
   return (
     <main className="App">
       <Header categories={categories} currentCategory={currentCategory} setCurrentCategory={setCurrentCategory}></Header>
-      <div className="h-100">
+      <div className="tb">
       <Content currentCategory={currentCategory}></Content>
       </div>
       <Footer></Footer>
