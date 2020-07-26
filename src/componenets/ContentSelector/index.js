@@ -17,9 +17,11 @@ function Content({currentCategory}) {
 
     return(
         <>
+        <div>
             {
                 RenderCategory()
             }
+        </div>
         </>
     )
 }

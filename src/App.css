@@ -7,11 +7,25 @@
   pointer-events: none;
 }
 
-.jumbotron {
-  background-image: url(./assets/images/3.jpg);
-  background-size: cover;
-  background-blend-mode: luminosity;
-  background-position-y: -740px;
+.video-jumbo {
+position: relative;
+z-index: -101;
+overflow: hidden;
+}
+
+#myvid {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: -100;
+  width:120%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%; 
 }
 
 @media (prefers-reduced-motion: no-preference) {

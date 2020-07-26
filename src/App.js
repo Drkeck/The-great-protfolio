@@ -14,11 +14,13 @@ const [categories] = useState([
 const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
   return (
-    <div className="App">
+    <main className="App">
       <Header categories={categories} currentCategory={currentCategory} setCurrentCategory={setCurrentCategory}></Header>
-        <Content currentCategory={currentCategory}></Content>
+      <div className="h-100">
+      <Content currentCategory={currentCategory}></Content>
+      </div>
       <Footer></Footer>
-    </div>
+    </main>
   );
 }
 
