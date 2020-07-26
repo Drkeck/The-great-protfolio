@@ -8,7 +8,7 @@ function Header(props) {
         setCurrentCategory
     } = props;
     return(
-        <header className="d-flex justify-content-start align-items-center">
+        <header className="d-flex justify-content-start align-items-center bg-dark">
             <div>
                 <a href="/" className="mx-4 font-weight-bolder">Portfolio Layout</a>
             </div>

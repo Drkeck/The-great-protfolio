@@ -1,12 +1,13 @@
 import React from 'react'
 import About from '../About'
 import Contact from '../Contact'
+import Portfolio from '../project'
 
 function Content({currentCategory}) {
     function RenderCategory() {
         switch(currentCategory.name) {
             case "Portfolio":
-                return(<p>how are you?</p>)
+                return(<Portfolio></Portfolio>)
             case "Contact":
                 return(<Contact></Contact>)
             case "Resume":
