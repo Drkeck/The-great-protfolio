@@ -5,6 +5,8 @@ import Portfolio from '../project';
 import Resume from '../Resume';
 
 function Content({currentCategory}) {
+
+    // a switch function to better get what material is needed when, the props are handed down for the app.js file.
     function RenderCategory() {
         switch(currentCategory.name) {
             case "Portfolio":

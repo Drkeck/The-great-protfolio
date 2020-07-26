@@ -4,6 +4,7 @@ import Img1 from '../../assets/images/1.jpg'
 import vid1 from '../../assets/Video/splintercell test.webm'
 
 function About() {
+    // straigh forward about section all the interesting stuff in this section is going on in the CSS file.
 return(
     <div>
         <div>

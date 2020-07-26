@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Jumbotron, Card, CardTitle, CardText, Button} from 'reactstrap';
 
 function Resume() {
-
+    // Jumbotron and container for the white space on the page, imported cards too for style here.
     return(
         <div>
             <Jumbotron>

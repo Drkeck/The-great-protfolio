@@ -7,12 +7,12 @@ function Contact() {
     const [formState, setFormState] = useState({ name: '', email:'', message: '' });
 
     const { name, email, message } = formState;
-
+    // Validate those emails.
     function validateEmail(email) {
         const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         return re.test(String(email).toLowerCase());
     }
-
+    // handle changes to the text inputs and check to see if they're empy an or valid
     function handleChange(e) {
         setFormState({...formState, [e.target.name]: e.target.value })
         const tar = e.target.value
@@ -25,13 +25,13 @@ function Contact() {
             }
         }
     }
-
+    // half finished submit button since this site is not connected to a server that would log the submit to a database.
     function handleSubmit(e) {
         e.preventDefault();
     
         console.log(formState)
     }
-
+    // basic bootstrap enabled form
     return(
         <section>
             <Jumbotron className="contact">

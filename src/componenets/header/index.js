@@ -2,6 +2,7 @@ import React from 'react'
 import Navigation from '../nav'
 
 function Header(props) {
+    //props handed down from app.js so we can pass it to the NAV section
     const {
         categories = [],
         currentCategory,

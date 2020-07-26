@@ -2,14 +2,16 @@ import React, {useEffect} from 'react'
 import {Nav, NavItem, NavLink} from 'reactstrap'
 
 function Navigation(props) {
+    //props passed down from APP to alter data
     const {
         categories = [],
         currentCategory,
         setCurrentCategory
     } = props;
-
+    // used to tell the user what catefory they're in, when tabbed out
     useEffect(() => { document.title = "Portfolio " + currentCategory.name }, [currentCategory])
 
+    // maped return so we don't repeat ourselves.
     return(
         <Nav>
             {categories.map((category) => (

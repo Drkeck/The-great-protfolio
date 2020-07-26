@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 
 function Portfolio() {
+    // list of projects that i wish to share to the world via website/resume
     const [projects] = useState([
         {
             name: "Jak-eats (api-keys N/A)",
@@ -51,7 +52,7 @@ function Portfolio() {
         }
     ])
     
-
+    // mapped out projects so they're not repeating code in a already packed section, i used coloums to help make the site more mobile friendly and easily readable.
     return(
         <div className="container">
             <h2 className="my-3 text-white">My Work:</h2>

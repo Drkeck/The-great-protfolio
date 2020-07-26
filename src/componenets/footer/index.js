@@ -2,6 +2,7 @@ import React from 'react'
 import {Nav} from 'reactstrap'
 
 function Footer() {
+    // not too much going on here, just some footer based links.
     return(
         <footer className="bg-info py-3 text-center">
             <Nav className="d-flex">
