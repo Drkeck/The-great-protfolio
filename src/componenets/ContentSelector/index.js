@@ -1,7 +1,8 @@
-import React from 'react'
-import About from '../About'
-import Contact from '../Contact'
-import Portfolio from '../project'
+import React from 'react';
+import About from '../About';
+import Contact from '../Contact';
+import Portfolio from '../project';
+import Resume from '../Resume';
 
 function Content({currentCategory}) {
     function RenderCategory() {
@@ -11,7 +12,7 @@ function Content({currentCategory}) {
             case "Contact":
                 return(<Contact></Contact>)
             case "Resume":
-                return(<p>I made this for you</p>)
+                return(<Resume></Resume>)
             default:
                 return (<About></About>)
         }
