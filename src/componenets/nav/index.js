@@ -16,7 +16,7 @@ function Navigation(props) {
                 <NavItem key={category.name} className={` text-white ${currentCategory.name === category.name && 'text-primary'}`}> 
                     <NavLink onClick={()=>{
                         setCurrentCategory(category)
-                    }}>{category.name} 
+                    }} className="p-2">{category.name} 
                     </NavLink>
                 </NavItem>
             ))}

@@ -6,7 +6,7 @@ import Content from './componenets/ContentSelector';
 
 function App() {
 const [categories] = useState([
-  {name: "About Me"},
+  {name: "About"},
   {name: "Portfolio"},
   {name: "Contact"},
   {name: "Resume"}

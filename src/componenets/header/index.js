@@ -8,9 +8,9 @@ function Header(props) {
         setCurrentCategory
     } = props;
     return(
-        <header className="d-flex justify-content-start align-items-center bg-dark">
+        <header className="d-flex justify-content-start align-items-center bg-dark p-2">
             <div>
-                <a href="/" className="mx-2 font-weight-bolder">Drkeck</a>
+                <a href="/" className="text-nowrap mx-2 font-weight-bolder">Alex Keckley</a>
             </div>
             <Navigation categories={categories} currentCategory={currentCategory} setCurrentCategory={setCurrentCategory}></Navigation>
         </header>

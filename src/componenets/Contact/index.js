@@ -8,11 +8,21 @@ function Contact() {
 
     const { name, email, message } = formState;
 
+    function validateEmail(email) {
+        const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(String(email).toLowerCase());
+    }
+
     function handleChange(e) {
         setFormState({...formState, [e.target.name]: e.target.value })
         const tar = e.target.value
         if (!tar.length) {
             setErrorMessage(`${e.target.name} is required`)
+        } else if (e.target.name === "email") {
+            const isValid = validateEmail(tar);
+            if (!isValid) {
+                setErrorMessage(`${e.target.name} is not a valid address`)
+            }
         }
     }
 
