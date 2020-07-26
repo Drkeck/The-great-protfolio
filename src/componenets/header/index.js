@@ -10,7 +10,7 @@ function Header(props) {
     return(
         <header className="d-flex justify-content-start align-items-center">
             <div>
-                <a href="/" className="font-weight-bolder">Portfolio Layout</a>
+                <a href="/" className="mx-4 font-weight-bolder">Portfolio Layout</a>
             </div>
             <Navigation categories={categories} currentCategory={currentCategory} setCurrentCategory={setCurrentCategory}></Navigation>
         </header>
