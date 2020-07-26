@@ -54,14 +54,14 @@ function Portfolio() {
 
     return(
         <div className="container">
-            <h2 className="my-3">My Work:</h2>
-            <div className="row justify-content-center">
+            <h2 className="my-3 text-white">My Work:</h2>
+            <div className="row my-4 justify-content-center">
                 {
                     projects.map((project, i) => (
-                        <div className="card m-2 col-5 shadow-sm bg-light
+                        <div className="card m-2 col-sm-6 col-md-5 shadow bg-light
                         " key={i}>
                             <img src={require(`../../assets/projectImg/${i + 1}.jpg`)} className="card-img-top mt-5" alt="..." />
-                            <div className="card-body col">
+                            <div className="card-body">
                                 <h5 className="card-title">{project.name}</h5>
                                 <h6 className="card-subtitle mb-2 text-muted">{project.languages}</h6>
                                 <p className="card-text">{project.description}.</p>

@@ -1,15 +1,14 @@
 import React from 'react'
-import {Nav, NavItem} from 'reactstrap'
+import {Nav} from 'reactstrap'
 
 function Footer() {
     return(
         <footer className="bg-info py-3 text-center">
             <Nav className="d-flex">
-                <NavItem className="mx-auto px-2 text-light">Twitter</NavItem>
-                <NavItem className="mx-auto px-2 text-light">LinkedIn</NavItem>
-                <NavItem className="mx-auto px-2 text-light">GitHub</NavItem>
-                <NavItem className="mx-auto px-2 text-light">Email@Host.Com</NavItem>
-                <NavItem className="mx-auto px-2 text-light">Phone Number</NavItem>
+                <a className="mx-auto px-2 text-light" href="https://twitter.com/Doc_keck">Twitter</a>
+                <a className="mx-auto px-2 text-light" href="https://www.linkedin.com/in/alexander-keckley-9957b41a3/">LinkedIn</a>
+                <a className="mx-auto px-2 text-light" href="https://github.com/Drkeck">GitHub</a>
+                <p className="mx-auto px-2 text-light">k3ckl3y.a@gmail.com</p>
             </Nav>
         </footer>
     )

@@ -29,7 +29,7 @@ function Contact() {
                     <h1 className="display-3 text-white">Contact Me</h1>
                 </Container>
             </Jumbotron>
-            <div className="container">
+            <div className="container text-white">
                 <form id="contact-form" onSubmit={handleSubmit}>
                     <div>
                         <label htmlFor="name">Name:</label>
