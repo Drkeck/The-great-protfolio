@@ -1,4 +1,5 @@
-# [Dr Keck's Portfolio]() 
+
+# [Dr Keck's Portfolio]( https://Drkeck.github.io/The-great-protfolio) 
 
 ![image of site](https://i.imgur.com/Oike0Vr.png)
 
@@ -9,6 +10,8 @@ i made this to show what i am capable of as well as show off specific projects t
 i flexed my coding muscles by making this in react! and making a little call out page for who i am how to contact me and other little nifty things about me
 
 react is wonderful to work in, it may be a little confusing at times when using certain methods of SRC and other calls but after working out some kinks i have come to enjoy this tech a lot!
+
+Get to the site -> [Here]( https://Drkeck.github.io/The-great-protfolio)
 
 ## Tools Used :
 
