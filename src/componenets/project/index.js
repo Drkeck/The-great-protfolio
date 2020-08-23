@@ -43,11 +43,11 @@ function Portfolio() {
     
         },
         {
-            name: "README generator",
-            description: "Made a high end README generator to learn node.js",
-            languages: "javascript, node.js",
-            github: "https://github.com/drkeck/Readme-generator",
-            site:"https://github.com/drkeck/Readme-generator"
+            name: "Focus",
+            description: "Chat and Video app to connect people together",
+            languages: "MongoDb, Express, React, Node.js, Socket.io, WebRTC",
+            github: "https://github.com/anishasnet/focus",
+            site:"https://fo-cus.herokuapp.com/"
     
         }
     ])
