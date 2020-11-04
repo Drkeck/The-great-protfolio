@@ -4,7 +4,7 @@ import Img1 from '../../assets/images/1.jpg'
 import vid1 from '../../assets/Video/splintercell test.webm'
 
 function About() {
-    // straigh forward about section all the interesting stuff in this section is going on in the CSS file.
+    // straight forward about section all the interesting stuff in this section is going on in the CSS file.
 return(
     <div>
         <div>
@@ -22,18 +22,21 @@ return(
                     <h2>Alexander Keckley</h2>
                     <h6>Coder, Editor, Friend</h6>
                     <p>My name is Alexander Keckley, and i am huge into Coding, Video editing, Live streaming, and meeting new people!
-                        I am studying full stack development at UC Berkly Extension, there i have been making strides understanding how to build websites from front to back.
-                         learning some of the industry standards and libraries and middleware that can help you achieve your vision.</p>
+                        I am studied full stack development at UC Berkley Extension, there i have been making strides understanding how to build websites from front to back.
+                        I am proficient in MERN web development, and understand many tools and technologies such as Redux, Socket.io, graphQL, SQL, Jquery, React, Node.js, Express.js, MangoDB, Materialize, and Bootstrap.
+                        
+                        Also a self taught video editor, using my skills to add visual effects, balance audio, add subtitles, and introduce multiple tracks of effects/clips to tell a story or show off a event.
+                        </p>
                     <h5>Some of my skills are:</h5>
                     <div className="container">
                         <div className="row justify-content-center">
                             <ul className="col-sm-6 col-md-4">
-                                <h5>Coding:</h5>
-                                <li>Node.js</li>
+                                <h5>Coding Skills:</h5>
+                                <li>React and Node.js</li>
                                 <li>SQL and MongoDB</li>
                                 <li>Css/HTML</li>
-                                <li>Api's and server</li>
-                                <li>Jquery</li>
+                                <li>Rest Api's And GraphQL</li>
+                                <li>Libraries like Jquery, moment.js, and more. </li>
                             </ul>
                             <ul className="col-sm-6 col-md-4">
                                 <h5>Video Editing:</h5>
