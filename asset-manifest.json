@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/The-great-protfolio/static/css/main.49ea3118.chunk.css",
-    "main.js": "/The-great-protfolio/static/js/main.ae254f99.chunk.js",
-    "main.js.map": "/The-great-protfolio/static/js/main.ae254f99.chunk.js.map",
+    "main.js": "/The-great-protfolio/static/js/main.cb35148e.chunk.js",
+    "main.js.map": "/The-great-protfolio/static/js/main.cb35148e.chunk.js.map",
     "runtime-main.js": "/The-great-protfolio/static/js/runtime-main.7a2773e8.js",
     "runtime-main.js.map": "/The-great-protfolio/static/js/runtime-main.7a2773e8.js.map",
     "static/css/2.829c9cb5.chunk.css": "/The-great-protfolio/static/css/2.829c9cb5.chunk.css",
-    "static/js/2.5c08f448.chunk.js": "/The-great-protfolio/static/js/2.5c08f448.chunk.js",
-    "static/js/2.5c08f448.chunk.js.map": "/The-great-protfolio/static/js/2.5c08f448.chunk.js.map",
+    "static/js/2.4346ad58.chunk.js": "/The-great-protfolio/static/js/2.4346ad58.chunk.js",
+    "static/js/2.4346ad58.chunk.js.map": "/The-great-protfolio/static/js/2.4346ad58.chunk.js.map",
     "index.html": "/The-great-protfolio/index.html",
-    "precache-manifest.e95607b0a8db3434787ded3e6a839ac7.js": "/The-great-protfolio/precache-manifest.e95607b0a8db3434787ded3e6a839ac7.js",
+    "precache-manifest.f1509f81028879d0befe196830cc09ab.js": "/The-great-protfolio/precache-manifest.f1509f81028879d0befe196830cc09ab.js",
     "service-worker.js": "/The-great-protfolio/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/The-great-protfolio/static/css/2.829c9cb5.chunk.css.map",
     "static/css/main.49ea3118.chunk.css.map": "/The-great-protfolio/static/css/main.49ea3118.chunk.css.map",
-    "static/js/2.5c08f448.chunk.js.LICENSE.txt": "/The-great-protfolio/static/js/2.5c08f448.chunk.js.LICENSE.txt",
+    "static/js/2.4346ad58.chunk.js.LICENSE.txt": "/The-great-protfolio/static/js/2.4346ad58.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/The-great-protfolio/static/media/1.cb9c2b81.jpg",
     "static/media/2.jpg": "/The-great-protfolio/static/media/2.34f02043.jpg",
     "static/media/3.jpg": "/The-great-protfolio/static/media/3.5c239e2f.jpg",
@@ -26,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.7a2773e8.js",
     "static/css/2.829c9cb5.chunk.css",
-    "static/js/2.5c08f448.chunk.js",
+    "static/js/2.4346ad58.chunk.js",
     "static/css/main.49ea3118.chunk.css",
-    "static/js/main.ae254f99.chunk.js"
+    "static/js/main.cb35148e.chunk.js"
   ]
 }

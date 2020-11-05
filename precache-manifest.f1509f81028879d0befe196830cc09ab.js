@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9324d4e2651a537a4d9e7a8a01b852bb",
+    "revision": "cfac3a40929fb53736c767a8e384a5e6",
     "url": "/The-great-protfolio/index.html"
   },
   {
-    "revision": "923928fee496b4ff996c",
+    "revision": "18bbc69e6ba55e05280a",
     "url": "/The-great-protfolio/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "46db53d4ae3c7a085af5",
+    "revision": "f5900a858628357aa48b",
     "url": "/The-great-protfolio/static/css/main.49ea3118.chunk.css"
   },
   {
-    "revision": "923928fee496b4ff996c",
-    "url": "/The-great-protfolio/static/js/2.5c08f448.chunk.js"
+    "revision": "18bbc69e6ba55e05280a",
+    "url": "/The-great-protfolio/static/js/2.4346ad58.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/The-great-protfolio/static/js/2.5c08f448.chunk.js.LICENSE.txt"
+    "url": "/The-great-protfolio/static/js/2.4346ad58.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "46db53d4ae3c7a085af5",
-    "url": "/The-great-protfolio/static/js/main.ae254f99.chunk.js"
+    "revision": "f5900a858628357aa48b",
+    "url": "/The-great-protfolio/static/js/main.cb35148e.chunk.js"
   },
   {
     "revision": "7bfabfaee4eecad87797",
