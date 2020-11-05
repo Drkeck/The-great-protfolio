@@ -16,13 +16,13 @@ return(
                     </video>
                 </Container>
             </Jumbotron>
-            <div className="media container text-white">
-                <img src={Img1} className="w-25 rounded border border-dark shadow mt-5" alt=".."/>
-                <div className="media-body container">
+            <div className="row container text-white">
+                <img src={Img1} className="h-25 shadow col-md m-3" style={{ maxWidth: 360, padding: 0}} alt=".."/>
+                <div className="col container">
                     <h2>Alexander Keckley</h2>
                     <h6>Coder, Editor, Friend</h6>
                     <p>My name is Alexander Keckley, and i am huge into Coding, Video editing, Live streaming, and meeting new people!
-                        I am studied full stack development at UC Berkley Extension, there i have been making strides understanding how to build websites from front to back.
+                        I am studied full stack development at UC Berkley Extension, understanding how to build websites from front to back.
                         I am proficient in MERN web development, and understand many tools and technologies such as Redux, Socket.io, graphQL, SQL, Jquery, React, Node.js, Express.js, MangoDB, Materialize, and Bootstrap.
                         
                         Also a self taught video editor, using my skills to add visual effects, balance audio, add subtitles, and introduce multiple tracks of effects/clips to tell a story or show off a event.
