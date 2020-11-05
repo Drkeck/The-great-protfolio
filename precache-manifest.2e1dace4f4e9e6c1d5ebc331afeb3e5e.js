@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cfac3a40929fb53736c767a8e384a5e6",
+    "revision": "606c79f7e9ae8de918aac621e68537c9",
     "url": "/The-great-protfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/The-great-protfolio/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "f5900a858628357aa48b",
+    "revision": "1df2d9099f3033af7e72",
     "url": "/The-great-protfolio/static/css/main.49ea3118.chunk.css"
   },
   {
@@ -20,20 +20,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/The-great-protfolio/static/js/2.4346ad58.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f5900a858628357aa48b",
-    "url": "/The-great-protfolio/static/js/main.cb35148e.chunk.js"
+    "revision": "1df2d9099f3033af7e72",
+    "url": "/The-great-protfolio/static/js/main.84e4a74c.chunk.js"
   },
   {
     "revision": "7bfabfaee4eecad87797",
     "url": "/The-great-protfolio/static/js/runtime-main.7a2773e8.js"
   },
   {
-    "revision": "83d6a4757834643499072707facf61ab",
-    "url": "/The-great-protfolio/static/media/1.83d6a475.jpg"
+    "revision": "590a845ee28d018ea4d5898cf62aed94",
+    "url": "/The-great-protfolio/static/media/1.590a845e.jpg"
   },
   {
-    "revision": "cb9c2b81dd16a39406d5ab472d2df116",
-    "url": "/The-great-protfolio/static/media/1.cb9c2b81.jpg"
+    "revision": "83d6a4757834643499072707facf61ab",
+    "url": "/The-great-protfolio/static/media/1.83d6a475.jpg"
   },
   {
     "revision": "34f020435ab07390283e274a868d739e",
