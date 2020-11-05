@@ -23,12 +23,10 @@ Get to the site -> [Here]( https://Drkeck.github.io/The-great-protfolio)
 
 * Javascript
 
-* many, many, tutorials, trial and errors, and messing with the CSS to make sure things fit properly.
-
 
 ## About Me :
 
-Well why are you looking here? why not look at the small introduction i made on the site?
+I'm a recently graduated student from the UC berkeley coding boot camp, looking to put myself out there and work with all sorts of teams and technologies.
 
 im always looking to improve and love feedback!
 
