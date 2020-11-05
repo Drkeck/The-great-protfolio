@@ -16,9 +16,10 @@ return(
                     </video>
                 </Container>
             </Jumbotron>
-            <div className="row container text-white">
-                <img src={Img1} className="h-25 shadow col-md m-3" style={{ maxWidth: 360, padding: 0}} alt=".."/>
-                <div className="col container">
+            <div className="container card p-4 mb-4 shadow">
+            <div className="row justify-content-center">
+                <img src={Img1} className="h-25 shadow col-xl-6 col-md-6 m-3" style={{ maxWidth: 360, padding: 0}} alt=".."/>
+                <div className="col-xl-6 col-md-12 ">
                     <h2>Alexander Keckley</h2>
                     <h6>Coder, Editor, Friend</h6>
                     <p>My name is Alexander Keckley, and i am huge into Coding, Video editing, Live streaming, and meeting new people!
@@ -29,24 +30,18 @@ return(
                         </p>
                     <h5>Some of my skills are:</h5>
                     <div className="container">
-                        <div className="row justify-content-center">
-                            <ul className="col-sm-6 col-md-4">
-                                <h5>Coding Skills:</h5>
+                        <div className="justify-content-center">
+                            <ul>
                                 <li>React and Node.js</li>
                                 <li>SQL and MongoDB</li>
                                 <li>Css/HTML</li>
                                 <li>Rest Api's And GraphQL</li>
                                 <li>Libraries like Jquery, moment.js, and more. </li>
                             </ul>
-                            <ul className="col-sm-6 col-md-4">
-                                <h5>Video Editing:</h5>
-                                <li> Davinci Resolve </li>
-                                <li> Fusion VFX </li>
-                                <li> Audio Mixing </li>
-                            </ul>
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     </div>
