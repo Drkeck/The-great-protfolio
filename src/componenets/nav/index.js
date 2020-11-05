@@ -1,8 +1,12 @@
-import React, {useEffect} from 'react'
-import {Nav, NavItem, NavLink} from 'reactstrap'
+import React, {useEffect, useState} from 'react'
+import {Navbar, NavItem, NavLink, Nav, NavbarToggler, Collapse, NavbarBrand} from 'reactstrap'
 
 function Navigation(props) {
     //props passed down from APP to alter data
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggle = () => setIsOpen(!isOpen);
+
     const {
         categories = [],
         currentCategory,
@@ -13,7 +17,11 @@ function Navigation(props) {
 
     // maped return so we don't repeat ourselves.
     return(
-        <Nav>
+        <Navbar expand="md" dark>
+            <NavbarBrand className="text-nowrap text-white mx-2 font-weight-bolder">Alexander Keckley</NavbarBrand>
+            <NavbarToggler onClick={toggle} className="mr-2"/>
+            <Collapse isOpen={isOpen} navbar>
+            <Nav>
             {categories.map((category) => (
                 <NavItem key={category.name} className={` text-white ${currentCategory.name === category.name && 'text-primary'}`}> 
                     <NavLink onClick={()=>{
@@ -22,7 +30,9 @@ function Navigation(props) {
                     </NavLink>
                 </NavItem>
             ))}
-        </Nav>
+            </Nav>
+            </Collapse>
+        </Navbar>
     )
 }
 

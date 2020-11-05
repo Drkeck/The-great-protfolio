@@ -9,7 +9,7 @@ function App() {
 const [categories] = useState([
   {name: "About"},
   {name: "Portfolio"},
-  {name: "Contact"},
+  // {name: "Contact"},
   {name: "Resume"}
 ]);
 // sets the default category to "ABOUT" 

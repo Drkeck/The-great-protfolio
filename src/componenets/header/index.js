@@ -9,10 +9,7 @@ function Header(props) {
         setCurrentCategory
     } = props;
     return(
-        <header className="d-flex justify-content-start align-items-center bg-dark p-2">
-            <div>
-                <a href="/The-great-protfolio" className="text-nowrap text-white mx-2 font-weight-bolder">Alex Keckley</a>
-            </div>
+        <header className="bg-dark">
             <Navigation categories={categories} currentCategory={currentCategory} setCurrentCategory={setCurrentCategory}></Navigation>
         </header>
     )
