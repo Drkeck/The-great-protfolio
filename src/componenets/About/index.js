@@ -22,8 +22,8 @@ return(
                 <div className="col-xl-6 col-md-12 ">
                     <h2>Alexander Keckley</h2>
                     <h6>Coder, Editor, Friend</h6>
-                    <p>My name is Alexander Keckley, and i am huge into Coding, Video editing, Live streaming, and meeting new people!
-                        I am studied full stack development at UC Berkley Extension, understanding how to build websites from front to back.
+                    <p>My name is Alexander Keckley, and I'm into Coding, Video editing, Live streaming, and meeting new people!
+                        I have studied full stack development at UC Berkley Extension, understanding how to build websites from front to back.
                         I am proficient in MERN web development, and understand many tools and technologies such as Redux, Socket.io, graphQL, SQL, Jquery, React, Node.js, Express.js, MangoDB, Materialize, and Bootstrap.
                         
                         Also a self taught video editor, using my skills to add visual effects, balance audio, add subtitles, and introduce multiple tracks of effects/clips to tell a story or show off a event.
